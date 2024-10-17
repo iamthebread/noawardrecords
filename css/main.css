@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "myFirstFont";
+    src: url("../AwesomeLathusca.ttf");
+}
+
+body {
+    font-family: "myFirstFont";
+    color: #c4ae6f;
+    background-color: black;
+}
+
+div.navigation {
+    height: 110px;
+    width: 100%;
+    background-color: black;
+    color: #c4ae6f;
+}
+
+button.navigation {
+    height: 110px;
+    width: 200px;
+    background-color: black;
+    font-family: "myFirstFont";
+    color: #c4ae6f;
+    font-size: 40px;
+    border-style: none;
+    float: right;
+    margin-right: 10px;
+}
+
+button.navigation:hover {
+    height: 110px;
+    width: 200px;
+    background-color: black;
+    font-family: "myFirstFont";
+    color: #c4ae6f;
+    text-decoration: underline;
+    text-decoration-color: #c4ae6f;
+    font-size: 40px;
+    border-style: none;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    font-family: "myFirstFont";
+    color: #c4ae6f;
+    font-size: 120px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "myFirstFont";
+    color: #c4ae6f;
+    font-size: 50px;
+}
+
+
+h3 {
+    text-align: center;
+    color: #c4ae6f;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    width: 75%;
+    margin-left: 12.5%;
+}
