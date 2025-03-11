@@ -22,10 +22,10 @@ button.navigation {
     background-color: black;
     font-family: "Lacquer", system-ui;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     border-style: none;
     float: right;
-    margin-right: 10px;
+    margin-right: 2px;
 }
 
 button.navigation:hover {
