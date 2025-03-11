@@ -4,8 +4,8 @@
 }
 
 body {
-    font-family: "myFirstFont";
-    color: #c4ae6f;
+    font-family: "Lacquer", system-ui;
+    color: white;
     background-color: black;
 }
 
@@ -13,15 +13,15 @@ div.navigation {
     height: 110px;
     width: 100%;
     background-color: black;
-    color: #c4ae6f;
+    color: white;
 }
 
 button.navigation {
     height: 110px;
     width: 200px;
     background-color: black;
-    font-family: "myFirstFont";
-    color: #c4ae6f;
+    font-family: "Lacquer", system-ui;
+    color: white;
     font-size: 40px;
     border-style: none;
     float: right;
@@ -32,10 +32,10 @@ button.navigation:hover {
     height: 110px;
     width: 200px;
     background-color: black;
-    font-family: "myFirstFont";
-    color: #c4ae6f;
+    font-family: "Lacquer", system-ui;
+    color: white;
     text-decoration: underline;
-    text-decoration-color: #c4ae6f;
+    text-decoration-color: white;
     font-size: 40px;
     border-style: none;
     float: right;
@@ -43,24 +43,52 @@ button.navigation:hover {
 
 h1 {
     text-align: center;
-    font-family: "myFirstFont";
-    color: #c4ae6f;
-    font-size: 120px;
+    font-family: "Lacquer", system-ui;
+    color: white;
+    font-size: 100px;
+    line-height: 90px;
+    letter-spacing: 1px;
 }
 
 h2 {
     text-align: center;
-    font-family: "myFirstFont";
-    color: #c4ae6f;
-    font-size: 50px;
+    font-family: "Lacquer", system-ui;
+    color: white;
+    font-size: 40px;
+    line-height: 5px;
 }
 
 
 h3 {
     text-align: center;
-    color: #c4ae6f;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    color: white;
+    font-family: "Lacquer", system-ui;
+    font-size: 30px;
     width: 75%;
     margin-left: 12.5%;
+}
+
+button.artist {
+    background-color: #000000;
+    color: white;
+    border-style: none;
+    font-family: "Lacquer", system-ui;
+}
+
+button.artist:hover {
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-style: none;
+    font-family: "Lacquer", system-ui;
+}
+
+div.artists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.artist {
+    border-radius: 5px;
 }
