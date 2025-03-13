@@ -92,3 +92,7 @@ div.artists {
 img.artist {
     border-radius: 5px;
 }
+
+div.center {
+    text-align: center;
+}
